@@ -6,6 +6,12 @@
    width: 100%; 
 }
 
+@media (max-width){
+  main {
+      flex-wrap: wrap;
+  }
+}
+
 #header-img {
     height: 100px;
     padding-left: 20px;
